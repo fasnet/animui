@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body {
+  margin: 0 auto;
+}
+
+.animuicmp {
+  display: flex;
+  min-height: 100vh;
+}
+.animuicmp .animuicmp-sidebar {
+  width: 170px;
+  flex-shrink: 0;
+  padding: 50px 30px;
+  background-color: #fbfbfb;
+}
+.animuicmp .animuicmp-sidebar .animuicmp-sidebar-type .animuicmp-sidebar-type-title {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.animuicmp .animuicmp-sidebar .animuicmp-sidebar-type .animuicmp-sidebar-list .animuicmp-sidebar-item {
+  font-family: "Raleway";
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.animuicmp-list {
+  padding: 50px;
+  width: 100%;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-title {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-title-sec {
+  font-family: "Raleway";
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box {
+  border: 1px solid #ededed;
+  border-radius: 8px 8px 0 0;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box .m {
+  margin: 10px 10px 10px 0;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code {
+  border: 1px solid #ededed;
+  border-radius: 0 0 8px 8px;
+  padding: 30px;
+  border-top: 0;
+  background-color: #2B2B2B;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code .animuicmp-item-box-code-line {
+  font-family: monospace;
+  white-space: pre;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code .animuicmp-item-box-code-line .n {
+  color: #DEB350;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code .animuicmp-item-box-code-line .tg {
+  color: #DEB350;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code .animuicmp-item-box-code-line .at {
+  color: #BABABA;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code .animuicmp-item-box-code-line .r {
+  color: #83AA4B;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-box-code .animuicmp-item-box-code-line .atv {
+  color: #83AA4B;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-note {
+  font-family: Raleway;
+  margin: 20px 0;
+  background-color: rgba(239, 241, 243, 0.7);
+  padding: 30px 40px;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-note ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-note ul li {
+  list-style-type: none;
+  font-size: 14px;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-note .cl {
+  color: #e12f1e;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-note .bd {
+  font-weight: bold;
+}
+.animuicmp-list .animuicmp-item .animuicmp-item-note::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #0080ff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=examples.css.map */
