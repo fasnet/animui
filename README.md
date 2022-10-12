@@ -1,2 +1,2 @@
 # animui
-Библиотека UI компонентов с элементами анимации
+Library of animated UI components
